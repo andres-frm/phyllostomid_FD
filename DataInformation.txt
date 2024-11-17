@@ -1,0 +1,54 @@
+--------------------------------------------
+DATA-SPECIFIC INFORMATION, file RawData.xlsx
+--------------------------------------------
+
+Number of variables/columns: 16
+
+Number of cases/rows: 609
+
+Missing data codes: NA
+
+--------------
+Variable list
+--------------
+date: date of capture of the individual.
+
+recapture: "1" if the individual was captured previously, "0" if it was captured for the first time.
+
+LU: landscape unit (LU) refers to the set of concentric circles where the landscape variables were measured. The
+    numeration refers to the site where bats were sampled. Distance to the urban centroid increase with the enumeration.
+
+species: taxonomic identification of the individuals captured.
+
+sex: "F" if female, "M" if male
+
+wing photo: numerical code of the photo files of bats wings. Those photos are stored in the folder "wing_photos".
+
+Bm (g): body mass
+
+FA (mm): forearm length
+
+tailL (mm): tail length
+
+earL (mm): ear length
+
+HF (mm): foot length
+
+TL (mm): total length 
+
+*Wing area cm2: it is measured including the areas of wing, the central axis of body, uropatagium and excluding the head.
+                It is multiplied by two. 
+
+*Wingspan (cm): it is measured from the tip of the wing to the central axis of the body, and multiplied by two.   
+
+Wing loading: it was estimated by dividing body mass into the product of gravitational acceleration, 9.81 m/s2, and wing area.
+
+Aspect ratio: it was calculated as the quotient of the wingspan squared and wing area.
+
+------------------------------------------------------------------------------------------------
+NOTE: 
+* Those variables were measured using ImageJ software from the photos of the bat's wings.
+------------------------------------------------------------------------------------------------
+
+   
+
